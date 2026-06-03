@@ -1,0 +1,20 @@
+[project]
+name = "peripheral-intelligence-platform"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "google-api-python-client>=2.197.0",
+    "pandas>=3.0.3",
+    "praw>=7.8.1",
+    "pyarrow>=24.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "asyncpraw>=7.8.1",
+    "duckdb>=1.5.3",
+    "sqlalchemy>=2.0.50",
+]
