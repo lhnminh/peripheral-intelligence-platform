@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Users/VHV/Documents/Minh/peripheral-intelligence-platform -type f -name *.md -o -name .env* -o -name *rules -o -name *instructions*)",
+      "Bash(git ls-tree:*)"
+    ]
+  }
+}
