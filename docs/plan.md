@@ -13,6 +13,7 @@
 9. Containerize with Docker.
 10. Deploy the dashboard with Vercel.
 
+
 ## MVP
 
 - Top 3 trending mechanical keyboards.
